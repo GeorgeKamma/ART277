@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <!--styling begins from here-->
+  <style>
+    h1{
+      text-align: center;
+      color: blue;
+      margin: 30px 0 50px;
+      font-family: 'Gill Sans', 'Gill Sans MT';
+      font-size: 50px;
+    }
+    .gallery{
+      margin: 10px 50px;
+      align-items: center;
+    }
+    .gallery img{
+      width: 230px;
+      padding: 5px;
+      filter:grayscale(100%);
+      
+    }
+    .gallery img:hover{
+      filter: grayscale(0);
+      transform:scale(1.1);
+    }
+    p{
+       text-align: center; 
+       margin: 50 0 40;
+       font-family: Verdana;
+       font-size: 20px;
+       color:black;
+    }
+    body{
+      background-color: aqua;
+    }
+
+    
+    .footer{
+    background: black;
+    color:#fff;
+    height: 400px;
+    position: relative;
+   }
+   .footer .footer-content{
+    height: 350px;
+    display: flex;
+   }
+   .footer .footer-content .footer-section {
+    flex: 1px;
+    padding: 25px;
+   }
+   .footer .footer-content p{
+    margin-top: 13px;
+    
+   }
+   .footer .footer-content h1,
+   .footer .footer-content h2{
+      color:#fff;
+   }
+   .footer .footer-content .about h1 span{
+      color: aqua;
+   }
+   .footer .footer-content .about .contact span{
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+   }
+   .footer .footer-content .about .socials a{
+    border: 1px solid blue;
+    width: 45px;
+    height: 41px;
+    padding-top: 5px;
+    margin: 7px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+   }
+   .footer .footer-content .about .socials a:hover{
+    border: 1px solid white;
+    color: white;
+    transition: all .3s;
+   }
+   .footer .footer-content .links ul li a{
+     display: block;
+     margin-bottom: 10px;
+     margin-right: 10px;
+     color: aqua;
+     font-size: 1.2em;
+   }
+   .footer .footer-content .links ul li a:hover{
+    color: blue;
+    margin-left: 15px;
+    transition: all .3s;
+   }
+   .footer .footer-content .contact-input{
+     background:white;
+     color:black;
+     margin-bottom: 10px;
+     line-height: 15px;
+     padding:10px 8px;
+     border: none;
+   }
+   .footer .footer-content .contact-input:focus{
+    background: aqua;
+    font-size: 20px;
+   }
+   .footer .footer-content .contact-form .contact-btn{
+    float: right;
+   }
+   .footer .footer-bottom{
+    background: aqua;
+    color: black;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+    font-size: 20px;
+    
+   }
+   
+   .btn-big{
+    padding: .7rem 1.3rem;
+    line-height: 1.3rem;
+    background: aqua;
+    font-size: 22px;
+    font-style: italic;
+   }
+   .btn-big:hover{
+    color: blue;
+    transition: 1.5s;
+   }
+   
+    
+  </style>
+  <!--styling ends here-->
+</head>
+<body>
+  <!--the body begins from the h1-->
+  <h1>Fast Delivery Service(F.D.S)</h1>
+
+  <p>
+   <i>Have a view of some of our products!<br>
+     Our product are guarantee,<br>  You can trust us
+    at<abbr title="Fast Delivery Service">( F.D.S )</abbr> 
+    <br>our coustomers are our first concearn.</i>
+  </p>
+ 
+  
+    <!--images as links-->
+<div class="gallery">
+ <a href="../Pics/x7.jpg"> <img src="../Pics/x7.jpg"></a>
+ <a href="../Pics/BMW.jpg"> <img src="../Pics/BMW.jpg" ></a>
+ <a href="../Pics/Bus (1).jpg"><img src="../Pics/Bus (1).jpg" ></a>
+ <a href="../Pics/Bus (2).jpg"><img src="../Pics/Bus (2).jpg" ></a>
+ <a href="../Pics/Bus 3.jpg"> <img src="../Pics/Bus 3.jpg" ></a>
+ <a href="../Pics/GU.jpg"> <img src="../Pics/GU.jpg" ></a>
+  <a href="./Pics/hyundai.jpg"><img src="../Pics/hyundai.jpg"></a>
+  <a href="../Pics/hyundal1.jpg"><img src="../Pics/hyundal1.jpg"></a>
+ <a href="../Pics/keke.jpg"> <img src="../Pics/keke.jpg"></a>
+ <a href="../Pics/keke2.jpg"> <img src="../Pics/keke2.jpg"></a>
+ <a href="../Pics/keke3.jpg"> <img src="../Pics/keke3.jpg"></a>
+ <a href="../Pics/keke4.jpg"> <img src="../Pics/keke4.jpg"></a>
+ <a href="../Pics/keke5.jpg"> <img src="../Pics/keke5.jpg"></a>
+ <a href="../Pics/lan.jpg"> <img src="../Pics/lan.jpg"></a>
+ <a href="../Pics/land cruiser.jpg"> <img src="../Pics/land cruiser.jpg"></a>
+ <a href="../Pics/MB.jpg"><img src="../Pics/MB.jpg"></a> 
+ <a href="../Pics/mBenz.jpg"> <img src="../Pics/mBenz.jpg"></a>
+ <a href="../Pics/mercedes benz.jpg"><img src="../Pics/mercedes benz.jpg"></a> 
+ <a href="../Pics/mercedes.jpg"> <img src="../Pics/mercedes.jpg"></a>
+ <a href="../Pics/nissan.jpeg"> <img src="../Pics/nissan.jpeg"></a>
+ <a href="../Pics/pathfinder.jpg"> <img src="../Pics/pathfinder.jpg"></a>
+ <a href="../Pics/pathfinder1.jpg"> <img src="../Pics/pathfinder1.jpg"></a>
+ <a href="../Pics/rage rover.jpg"> <img src="../Pics/rage rover.jpg"></a>
+ <a href="../Pics/range.png"> <img src="../Pics/range.png"></a>
+ <a href="../Pics/rover.jpg"> <img src="../Pics/rover.jpg"></a>
+ <a href="../Pics/tank.jpg"><img src="../Pics/tank.jpg"></a> 
+ <a href="../Pics/tax.jpg"> <img src="../Pics/tax.jpg"></a>
+ <a href="../Pics/taxi.jpg"> <img src="../Pics/taxi.jpg"></a>
+ <a href="../Pics/taxi1.jpg"> <img src="../Pics/taxi1.jpg" ></a>
+ <a href="../Pics/Toyota patrol.jpg"> <img src="../Pics/Toyota patrol.jpg"></a>
+ <a href="../Pics/toyota.jpg"> <img src="../Pics/toyota.jpg"></a>
+ <a href="../Pics/toyota1.jpg"><img src="../Pics/toyota1.jpg"></a> 
+ <a href="../Pics/toyota2.jpg"><img src="../Pics/toyota2.jpg"></a> 
+ <a href="../Pics/toyota5.jpeg"> <img src="../Pics/toyota5.jpeg"></a>
+ <a href="../Pics/war tank.jpg"> <img src="../Pics/war tank.jpg" ></a>
+ <a href="../Pics/war.jpg"> <img src="../Pics/war.jpg"></a>
+  
+</div>
+<!--links of images ends here-->
+
+
+     <!--the footer section of my document begins from here-->
+<div class="footer">
+  <div class="footer-content">
+
+
+   <div class="footer-section about">
+     <h1 class="logo-text"><span> Fast Delivery</span> Service</h1>
+     <p> 
+       We are concearn with the delivering of our products at any location 
+       Anyone who is intrested can meet us at our head  office ELWA JUNCION near the  falwaz building material store.
+     </p>
+     <br>
+     <br>
+
+     <div class="contact">
+       <span>&nbsp;Phone: 231-881-898-729</span> 
+       <span>&nbsp;Email: kammageorge45.mail.com</span>
+     </div>
+     <div class="socials">
+       <a href="#"></a>
+       <a href="#"></a>
+       <a href="#"></a>
+       <a href="#"></a>
+     </div>
+   </div>
+   <div class="footer-section links">
+     <h2>Quick Links</h2> 
+     <br>
+     <ul>
+      <li><a href=""><i>Starz University</i></a></li> 
+      <li><a href="/Two.html"><i>About Us</i></a></li>
+      <li><a href="/New/Five.html"><i>Gallery</i></a></li>
+      <li><a href="/Photos/record/Six.html"><i>Feedback</i></a></li>
+      <li><a href=""><i></i>Terms and Conditions</a></li>
+     </ul>
+   </div>
+   <div class="footer-section contact-form">
+     <h2>Contact Us</h2>
+     <br>
+     <form action="four.html" method="post">
+       <input type="email" name="email" class="text-input contact-input" placeholder="Your email address..."> 
+       <br>
+       <textarea name="Message" class="text-input contact-input" placeholder="Your Message"></textarea>
+        <br>
+       <button type="submit" class="btn btn-big contact-btn">SEND</button>
+     </form>
+   </div>
+ </div>
+
+
+ <div class="footer-bottom">
+    &copy; starzit.com | Designed by George Kamma
+ </div>
+</div>
+<!--ending of the footer-->
+
+</body>
+<!--html document ends here-->
+</html>

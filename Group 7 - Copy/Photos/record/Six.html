@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback</title>
+  <!--the beginning of my style sheet-->
+  <style>
+   *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    color: #fff;
+   }
+   section{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url(../../Pics/rage\ rover.jpg);
+    filter: blur(2px) brightness(40%);
+   }
+   body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+   }
+   .container{
+    width: 500px;
+    background: black;
+    box-shadow: 0 0 8px rgba(250, 250, 0, 6);
+    opacity: 0.6;
+   }
+   .container form{
+    width: 100%;
+    text-align: center;
+    padding: 25px  20px;
+   }
+   form h1{
+    padding: 10px 0;
+   }
+   form .id{
+    position: relative;
+   }
+   .id i{
+    position: absolute;
+    font-size: 20px;
+    top: 50px;
+    right: 20px;
+    transform: translateY(-50%);
+   }
+   form input{
+     width: 100%;
+     height: 50px;
+     margin: 4px 0;
+     border: 1px soli #5c5c5c;
+     border-radius: 3px;
+    background: #181717;
+    padding-right: 45px;
+    padding:0 15px;
+    font-size: 20px;
+   }
+   form textarea{
+    padding: 5px 15px;
+    border: 1px soli #5c5c5c;
+     border-radius: 3px;
+    background: #181717;
+    font-size: 20px;
+    width: 100%;
+    margin: 4px 0;
+   }
+   form button{
+    margin-top: 10px;
+    border: none;
+    background: aqua;
+    color: #222;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 3px;
+   }
+   form input:focus,
+   form textarea:focus{
+    border: 1px solid #00fff0;
+    color: #00fff0;
+    transition: all 0.3s ease;
+   }
+   form input:focus::placeholder,
+   form textarea:focus::placeholder{
+    padding-left: 4px;
+    color: #00fff0;
+    transition: all 0.3s ease;
+   }
+   form input:focus + i{
+    color: #00fff0;
+    transition: all 0.3s ease;
+   }
+  </style>
+  <!--style sheet ends here-->
+</head>
+<!--head closes as the body begins from here-->
+
+<body>
+  <!--feedback for begins -->
+  <section></section>
+  <div class="container">
+    <form>
+      <h1>Give your Feedback</h1>
+      <div class="id">
+      <input type="text" placeholder="Full name">
+      <i class="far fa-user"></i>
+      </div>
+      <div class="id">
+        <input type="email" placeholder="Email address">
+        <i class="far fa-envelope"></i>
+        
+       </div>
+       <textarea cols="15" rows="5" placeholder="Enter your opinions here.."></textarea>
+       <!--buttom link to my personal email-->
+       <button><a href="mailto:kammageorge45@gmail.com">Send</a> </button>
+    </form>
+   <!--forms ends-->
+  </div>
+</body>
+</html>

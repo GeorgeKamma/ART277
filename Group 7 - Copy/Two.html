@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <!--my styling begins from here-->
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      min-height: 100vh;
+      display: flex;
+      justify-content:center;
+      background: aqua;
+    }
+    .about{
+      background: url(ROVER1.jpg) no-repeat;
+      background-color: aqua;
+      overflow: hidden;
+      padding: 100px 0;
+    }
+    .inner-section{
+      width: 55%;
+      float: right;
+      background-color: blue;
+      padding: 140px;
+      box-shadow: 12px 12px 8px rgb(0, 0, 0, 0,);
+    }
+    .inner-section h1{
+      margin: 30px;
+      font-size: 70px;
+      font-weight: 900;
+    }
+    .text{
+      font-size: 25px;
+      font-family: 'Times New Roman';
+      color: black;
+      line-height: 30px;
+      text-align: justify;
+      margin-bottom: 40px;
+    }
+    .skills button{
+      font-size: 22px;
+      text-align: center;
+      letter-spacing: 2px;
+      border: none;
+      border-radius: 20px;
+      padding: 8px;
+      width: 200px;
+      color:black ;
+      color: aqua;
+      cursor: pointer;
+    }
+    .skills button:hover{
+      transition: 2s;
+      background-color: red;
+      color: white;
+    }
+    @media screen and (max-width:120px) {
+      .inner-section{
+        padding: 80px;
+
+      }
+    }
+    @media screen and (mix-width: 1000px) {
+      .about{
+       background-size: 100%;
+       padding: 100px 40px;
+      }
+      
+    }
+    .inner-section{
+      width: 100%;
+    }
+    
+
+    @media screen and (mix-width: 600px) {
+      .about{
+        padding: 0px;
+
+      }
+
+      .inner-section{
+        padding: 60px;
+ 
+      }
+
+      .skills button{
+        font-size: 19px;
+        padding: 5px;
+        width: 160px;
+      }
+    }
+    .list{
+      font-size: 28px;
+      padding-bottom: 30px;
+    }
+    .video{
+      display: inline-flex;
+    }
+    a{
+      color:aqua;
+      list-style-type: none;
+    }
+
+   
+  </style>
+  
+</head>
+<body>
+  <!--the body of my document starts from here-->
+  <div  class="about">
+    <div class="inner-section">
+      <h1>About Us</h1> 
+      <!---a video with poster on it -->        
+      <video controls poster="/FDS.JPG">
+        <source src="/2022_Range_Rover.mp4" title="" type="">
+      
+       </video>
+       <!--paragraph that gives more information about the company-->
+      <p class="text">
+      
+        We are Fast Delivery services(F.D.S) this highly rated company <br>
+        is involved in the selling of cars, keke, and  war-tank <br>
+         we are in collaboration with toyota car company in <a href=""><b> @Japan</b></a> <br>
+         they are our business partner in the global word or on the <br>
+         international level. We are  located ELWA junction near Fawarz <br>
+         building material store. We are Liberia best and most trusted delivery company.
+        <br>
+        <br>
+        Our products are very long-lasting  <br>
+        each of our products has the duribility of  <b>10 Years</b> <br><br><br><br>
+        Below is a lost of items that we deliver here <a href="/One.html"> @Fast Delivery Service:</a>
+      </p>
+        <!--an unorder list with links-->
+        <div class="list">
+        <ul>
+         <a href="/@range.JPG"><li>Range Rover</li></a>
+         <a href="/@keke.JPG"><li>Keke</li></a> 
+         <a href="/@v8.JPG"><li>Toyota v8</li></a> 
+         <a href="/@tank.JPG"><li>War-tank</li></a> 
+        
+        </ul>
+      
+      
+
+        </div>
+      
+
+      <div class="skills">
+        <button><a href="/New/Three.html"> More about us</a></button>
+          
+      </div>
+
+    </div>
+
+  </div>
+  
+
+
+  
+</body>
+</html>

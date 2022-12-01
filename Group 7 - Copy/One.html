@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <style>
+    *
+    {
+      padding: 0;
+      margin: 0;
+    }
+    body
+    {
+      background-color: aqua;
+      background-size: cover;
+      background-position: center;
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }
+    .menu-bar{
+      
+      text-align: center;
+    }
+    .menu-bar ul
+    {
+      display: inline-flex;
+      list-style: none;
+      color: #fff;
+    }
+    .menu-bar ul li
+    {
+      width: 120px;
+      margin: 15px;
+      padding: 15px;
+    }
+    .menu-bar ul li a{
+      text-decoration: none;
+      color: #fff;
+    }
+    .active, .menu-bar ul li:hover{
+      background:blue ;
+      border-radius:3px ;
+    }
+    .center{
+      align-items: center;
+    }
+    .center h1{
+      margin: 200px;
+      padding: 1px;
+      color: blue;
+      font-size: 150px;
+      text-align: center;
+    }
+    .center p{
+    text-align: center;
+    font-style: oblique;
+    font-size: 20px;
+   }
+   input{
+    padding: 6px 10px;
+    cursor: pointer;
+    font-weight: 600;
+    height: 25px;
+   }
+   .singin{
+    background: transparent;
+    border: none;
+    color: black;
+    font-size: 17px;
+   }
+   
+   
+   .kla{
+    align-items: center;
+   }
+   .kla img{
+     width: 900px;
+     height:360px;
+     margin-top: 40px;
+     cursor: pointer;
+     padding-bottom: 40px;
+     
+  
+   }
+  
+   .kla p{
+     font-size:20px;
+     float: right;
+     padding: 10px;
+     padding-top: 80px;
+   }
+   .kla span{
+    font-size: 20px;
+    color: black;
+   }
+   .kla h1{
+    font-size: 80px;
+    text-align: center;
+    padding-top: 100px;
+    font-weight: 900;
+    color: blue;
+   }
+   .kla h2{
+    text-align:center;
+    margin-top: 80px;
+    font-size: 37px;
+    font-family: Trebuchet;
+    color: blue;
+   }
+   .footer{
+    background: black;
+    color:#fff;
+    height: 400px;
+    position: relative;
+   }
+   .footer .footer-content{
+    height: 350px;
+    display: flex;
+   }
+   .footer .footer-content .footer-section {
+    flex: 1px;
+    padding: 25px;
+   }
+   .footer .footer-content p{
+    margin-top: 13px;
+    
+   }
+   .footer .footer-content h1,
+   .footer .footer-content h2{
+      color:#fff;
+   }
+   .footer .footer-content .about h1 span{
+      color: aqua;
+   }
+   .footer .footer-content .about .contact span{
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+   }
+   .footer .footer-content .about .socials a{
+    border: 1px solid blue;
+    width: 45px;
+    height: 41px;
+    padding-top: 5px;
+    margin: 7px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+   }
+   .footer .footer-content .about .socials a:hover{
+    border: 1px solid white;
+    color: white;
+    transition: all .3s;
+   }
+   .footer .footer-content .links ul li a{
+     display: block;
+     margin-bottom: 10px;
+     margin-right: 10px;
+     color: aqua;
+     font-size: 1.2em;
+   }
+   .footer .footer-content .links ul li a:hover{
+    color: blue;
+    margin-left: 15px;
+    transition: all .3s;
+   }
+   .footer .footer-content .contact-input{
+     background:white;
+     color:black;
+     margin-bottom: 10px;
+     line-height: 15px;
+     padding:10px 8px;
+     border: none;
+   }
+   .footer .footer-content .contact-input:focus{
+    background: aqua;
+    font-size: 20px;
+   }
+   .footer .footer-content .contact-form .contact-btn{
+    float: right;
+   }
+   .footer .footer-bottom{
+    background: aqua;
+    color: black;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+    font-size: 20px;
+    
+   }
+   .btn-big{
+    padding: .7rem 1.3rem;
+    line-height: 1.3rem;
+    background: aqua;
+    font-size: 22px;
+    font-style: italic;
+   }
+   .btn-big:hover{
+    color: blue;
+    transition: 1.5s;
+   }
+   
+
+  </style>
+</head> 
+<body>
+  <!---the manu bar has been link to the various pages-->
+<div class="menu-bar">
+<ul>
+  <li class="active"><a href="#">Home</a><br></li>
+  <li><a href="Two.html">About Us</a><br></li>
+  <li><a href="New/Three.html">Services</a><br></li>
+  <li><a href="New/Four.html">Contact</a><br></li></li>
+  <li><a href="New/Five.html">Gallery</a><br></li>
+  <li><a href="Photos/record/Six.html">Feedback</a><br></li>
+</ul>
+
+<input class="singin" type="subject" value="Sing In" name="SingIn">
+</div>
+<div class="center">
+  <!--the welcome statement on the web page-->
+  <h1>WELCOME!</h1>
+  <p>This is the official website of <b>Fast Delivery Service (F.D.S)</b>  <br>
+    we are involved with selling and delivering of <b><a href="/Pics/mBenz.jpg">CARS</a> , <a href="/Pics/keke3.jpg">KEKE </a> <br>
+   <a href="/Pics/war tank.jpg">WAR TANK</a> </b> at our client's convenient time and location
+  </p>
+  <p>You can click on any of the above if you are wanting to know more about this Company and our Services</p>
+</div>
+
+<div class="kla">
+  <h1>A view of our products <br><i><span> Each  image below has been  link to a video that gives more details about the product view. <br>
+  Kindly click on the images below to watch our detail videos.
+  </span></i></h1>
+ 
+  </p>
+  <!---Prducts been link to their respective video with poster on it-->
+  <h2>RANGE ROVER</h2>
+   <a href="/2022_Range_Rover.mp4"><img src="/@range.JPG" title=" Our Range rover vehicles been explain about in details"></a> 
+   
+
+   <p>
+    The Range rover is the ultimate all-terrain vehicle and <br>
+     set the full size luxury SUV.
+    it's iconic design,<br> effotlessly comfortable interior, and responsive performance <br> make the range rover a legendary SUV.
+    Range rover offers <br> the utmost in luxury,but they are also dependable and rugged <br> vehicles that can conque almost any terrain with ease. whether <br> in the desert or travelling through the forest on a dirt and gravel <br> trial. it come standard with four-wheel dive and five passengers <br> seating.  Overall it is a nice car <br>
+   
+    The prices of this vehicle is Eight-thousand <br>($:8000 USD)
+    Our delivery agents are  always available.
+   </p>
+  
+
+   <h2>TOYOTA v8</h2>
+
+   <a href="/Land_Cruiser_V8_.mp4"><img src="/@v8.JPG" title="Our Keyan employee giving you more information about Toyota v8"></a>
+   
+  </p>
+   <p>
+    The 2021 Toyota Land crusier  is a decent luxury large SUV. <br> It boasts a powerful v8 engine
+     and compose healing on and <br> of road. its second-row seats are comfy and spacious, and <br> there are lots of standard convenience and safty features. <br>
+
+     In june interviewed Toyota Australia product panner, <br> Bernard Nadal, Who said that you would see most brands <br> are shifting down from v8s whether it be petrol or diesel. <br> It's generally in the pursuit of greater efficiencies and reduce <br> CO2 emission ,so that's the global tend. <br>
+   
+   
+    The prices of this vehicle is five-thousand($:5000)USD
+    at our <br> convenient time we are looking forward to doing business with you.
+   </p>
+
+   <h2>KEKE</h2>
+   <a href="/Full_review of keke.mp4"><img src="/@keke.JPG" title=" One of our Nigerian employee giving you more details about our KEKE"></a>
+   
+
+  <p> Even though they are now banned on the road from jUNCION to town  the TVS <br> Tricycle which is popularly called "KEKE" is now available for delivery at our <br> head office at <i>ELWA JUNCION.</i> 
+   They have the speed of 20 miles per hours. <br> however, some can reach a speed of around 30 miles per hours.
+   We also have <br> the brand new locally made Keke Napep that is produce by Innoson MOtos of <br> Nigeria. This new Keke has now joined other models vehicle in the IVM line-up, <br> including connect, caris, G20 smart, Ikenga, G40 and G80. <br>
+  
+  
+    The of our  tricycle is One-Thousand($:1000)USD but if you are wanting to enter <br> the Work and pay field it will be USD Two-Thousand $:2000 for 4 Months
+  </p> 
+   <h2>WAR TANK</h2>
+
+   <a href="/T-72B3__tank.mp4"><img src="/@tank.JPG" title="A display of our war tank speed on the war-front in Russia"></a>
+   
+   <p>
+     Even though it can not be own by an individual. <br> A battle tank, also know as war tank or <br> universal tank that is fills the role of armor-protected <br> direct fire in many modern armies is <br> also available for delivery at our Company central <br> office.
+     Civilians an not own a tank. However <br> permits has been given us by <abbr title="National Firarms Authority">(NFA)</abbr> of America to sell tanks. <br> our tanks has th speed of about 25 miles per hours <br> on flaf terrain and 45 miles per hour on road. <br>
+     our war tanks are sold here for one Million($:1,000,000) USD.
+   </p>
+</div>
+
+<!--the footer section begins from here-->
+<div class="footer">
+   <div class="footer-content">
+
+
+    <div class="footer-section about">
+      <h1 class="logo-text"><span> Fast Delivery</span> Service</h1>
+      <p> 
+        We are concearn with the delivering of our products at any location 
+        Anyone who is intrested can meet us at our head  office ELWA JUNCION near the  falwaz building material store.
+      </p>
+      <br>
+      <br>
+
+      <div class="contact">
+        <span>&nbsp;Phone: 231-881-898-729</span> 
+        <span>&nbsp;Email: kammageorge45.mail.com</span>
+      </div>
+      <div class="socials">
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+      </div>
+    </div>
+    <div class="footer-section links">
+      <!--few links of my web pages-->
+      <h2>Quick Links</h2> 
+      <br>
+      <ul>
+       <li><a href=""><i>Starz University</i></a></li> 
+       <li><a href="/Two.html"><i>About Us</i></a></li>
+       <li><a href="/New/Five.html"><i>Gallery</i></a></li>
+       <li><a href="/Photos/record/Six.html"><i>Feedback</i></a></li>
+       <li><a href=""><i></i>Terms and Conditions</a></li>
+      </ul>
+    </div>
+    <div class="footer-section contact-form">
+      <h2>Contact Us</h2>
+      <br>
+      <form action="four.html" method="post">
+        <input type="email" name="email" class="text-input contact-input" placeholder="Your email address..."> 
+        <br>
+        <textarea name="Message" class="text-input contact-input" placeholder="Your Message"></textarea>
+         <br>
+        <button type="submit" class="btn btn-big contact-btn">SEND</button>
+      </form>
+    </div>
+  </div>
+
+     <!--the footer button giving information about the designers-->
+  <div class="footer-bottom">
+     &copy; starzit.com | Designed by George Kamma
+  </div>
+</div>
+</body>
+</html>
